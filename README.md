@@ -5,8 +5,8 @@ This example shows how to detect out-of-distribution text data using a variation
 
 ## Overview
 VAEs are a neural network architecture composed of two parts:
-* An encoder that encodes data in a lower-dimensional parameter space.
-* A decoder that reconstructs the input data by mapping the lower-dimensional representation back into the original space.
+- An encoder that encodes data in a lower-dimensional parameter space.
+- A decoder that reconstructs the input data by mapping the lower-dimensional representation back into the original space.
  
 You can use a VAE to detect anomalies in your dataset. To do this, train a VAE on your data. Then, encode and decode a test data point. Compare the output of the decoder with the input data. If the input and output are similar, then the data is in-distribution. If the input and output are dissimilar, then the data is out-of-distribution, or anomalous.
 
