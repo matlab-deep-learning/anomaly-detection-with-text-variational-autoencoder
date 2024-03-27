@@ -1,4 +1,4 @@
-# Detect Anomalies in Text Data Using Variational Autoencoder (VAE) in MATLAB®
+# Detect Anomalies in Text Data Using Variational Autoencoder (VAE) in MATLAB® [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=matlab-deep-learning/anomaly-detection-with-text-variational-autoencoder)
 
 This example shows how to detect out-of-distribution text data using a variational autoencoder (VAE).
  
@@ -17,7 +17,9 @@ This example includes three steps.
 
 
 ## Setup
-Clone the repository in a local directory. The main live script is AnomalyDetectionwithTextusingVAE.mlx. The other .m files are supporting functions for sampling the latent space, projecting and reshaping after sampling from latent space, and initializations of the project and reshape layer. You can either open the .mlx for demo or open the .prj file which will automatically open .mlx file. 
+Clone the repository in a local directory. If you would like to use this repository with MATLAB Online, clink [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=matlab-deep-learning/anomaly-detection-with-text-variational-autoencoder)
+
+The main live script is AnomalyDetectionwithTextusingVAE.mlx. The other .m files are supporting functions for sampling the latent space, projecting and reshaping after sampling from latent space, and initializations of the project and reshape layer. You can either open the .mlx for demo or open the .prj file which will automatically open .mlx file. 
 
 Before running the file, get the data using the following steps: 
 - Go to https://www.mathworks.com/help/textanalytics/ug/create-simple-text-model-for-classification.html. 
